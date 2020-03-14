@@ -4,13 +4,11 @@ import * as colors from '@util/colors';
 export default StyleSheet.create({
 	outerContainer: {
 		flex: 1,
-		backgroundColor: colors.BANANA_YELLOW,
-		paddingHorizontal: '15%',
 	},
 	input: {
 		height: 50,
 		marginBottom: 15,
-		backgroundColor: 'white',
+		backgroundColor: colors.LIGHT_YELLOW,
 		fontSize: 18,
 		fontFamily: 'open-sans-regular',
 		paddingLeft: 12,
@@ -29,5 +27,24 @@ export default StyleSheet.create({
 	hideIcon: {
 		fontSize: 26,
 		color: colors.NAVY_BLUE,
+	},
+	banner: {
+		backgroundColor: colors.BANANA_YELLOW,
+		height: '35%',
+		paddingHorizontal: '15%',
+		paddingTop: 110,
+	},
+	innerContainer: {
+		paddingHorizontal: '15%',
+	},
+	buttonContainer: {
+		flexDirection: 'row',
+		paddingHorizontal: '8%',
+		justifyContent: 'space-between',
+		alignItems: 'center',
+	},
+	link: {
+		color: colors.NAVY_BLUE,
+		textAlign: 'right',
 	},
 });
